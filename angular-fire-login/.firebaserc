@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ng-fire-24382": {
+      "hosting": {
+        "angular-fire-login": [
+          "ng-fire-24382"
+        ]
+      }
+    }
+  }
+}

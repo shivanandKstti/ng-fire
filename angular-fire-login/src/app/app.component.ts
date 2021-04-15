@@ -1,3 +1,4 @@
+import { AuthService } from './services/auth.service';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-fire-login';
+
+  constructor(private auth: AuthService){
+    auth.getUser().subscribe(
+      (user) => {
+        console.log(user);
+      },
+      (err) => {
+        console.log(err);
+      }
+    )
+  }
 }
