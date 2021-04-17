@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ng-fire-24382": {
+      "hosting": {
+        "social-media-app": [
+          "ng-fire-24382"
+        ]
+      }
+    }
+  }
+}
